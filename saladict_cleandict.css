@@ -3,217 +3,232 @@
     background-color: #fff;
     border-bottom: 1px solid #eee;
     padding: 8px;
-  }
-  
-  .menuBar-SearchBox_Wrap {
+}
+
+.menuBar-SearchBox_Wrap {
     padding-right: 5px;
     padding-left: 5px;
-  }
-  
-  .menuBar-SearchBox {
+}
+
+.menuBar-SearchBox {
     color: #000;
     background-color: #eee;
     padding: 8px 10px;
     border-radius: 20px;
-  }
-  
-  .menuBar-Btn_Icon,
-  .menuBar-Btn_Icon-fav,
-  .menuBar-Btn_Icon-history {
+}
+
+.menuBar-Btn_Icon,
+.menuBar-Btn_Icon-fav,
+.menuBar-Btn_Icon-history {
     fill: #222;
-  }
-  
-  .mtaBox-TextArea-Wrap,
-  .mtaBox-DrawerBtn,
-  .waveformBox.saladict-external,
-  .dictItemHead-Logo {
+}
+
+.mtaBox-TextArea-Wrap,
+.mtaBox-DrawerBtn,
+.waveformBox.saladict-external,
+.dictItemHead-Logo {
     display: none;
-  }
-  
-  .dictItem {
+}
+
+.dictItem {
     padding: 0 10px;
-  }
-  
-  .dictItem:first-child {
+}
+
+.dictItem:first-child {
     padding-top: 10px;
-  }
-  
-  .dictItem-Body {
+}
+
+.dictItem-Body {
     padding: 0 15px;
-  }
-  
-  .dictItemHead {
+}
+
+.dictItemHead {
     background: #eee;
     border-radius: 6px;
     padding: 6px;
     height: auto;
-  }
-  
-  .dictPanel-Root {
+}
+
+.dictPanel-Root {
     box-shadow: rgba(0, 0, 0, 0.2) 0 7px 21px 2px;
-  }
-  
-  .isAnimate .menuBar-Btn,
-  .isAnimate .menuBar-Btn-dir {
+}
+
+.isAnimate .menuBar-Btn,
+.isAnimate .menuBar-Btn-dir {
     border-radius: 6px;
-  }
+}
 
 
 /* 针对剑桥词典的排版优化 */
 
-  /* title模组 */
-  .pos-header.dpos-h{
-  padding:15px 0;
-  }
-  
-  /* 单词title */
-  .hw.dhw {
+/* title模组 */
+.pos-header.dpos-h {
+    padding: 15px 0;
+}
+
+/* 单词title */
+.hw.dhw {
     font-size: 30px;
     padding: 20px 0 20px;
-  }
-  
-  /* 词性tag行*/
-  .posgram.dpos-g.hdib.lmr-5{
-  padding:10px 0 8px 0;
-  }
-  
-  /* 词性tag */
-  .pos.dpos{
+}
+
+/* 词性tag行*/
+.posgram.dpos-g.hdib.lmr-5 {
+    padding: 10px 0 8px 0;
+}
+
+/* 词性tag */
+.pos.dpos {
     border: solid 2px #F26800;
     border-radius: 10px;
     padding: 1px 3px 1px;
     background-color: rgba(242, 104, 0, .3);
-  }
-  
-  span.irreg-infls.dinfls{
-  padding: 5px 4px 1px;
-  }
-  
-  /* 不需要的元素 */
-  .dwl.hax, .dbtn, .daccord {
+}
+
+span.irreg-infls.dinfls {
+    padding: 5px 4px 1px;
+}
+
+/* 不需要的元素 */
+.dwl.hax,
+.dbtn,
+.daccord {
     display: none;
-  }
-  
-  /* 词义模块 */
-  .pr.dsense{
-  padding: 0 0 0 15px;
-  border-left: solid 3px;
-  border-color: rgba(242, 104, 0, .8);
-  margin: 10px 0 30px 0;
-  }
-  
-  
-  /* 词性英文 */
-  .dsense_h {
+}
+
+/* 词义模块 */
+.pr.dsense {
+    padding: 0 0 0 15px;
+    border-left: solid 3px;
+    border-color: rgba(242, 104, 0, .8);
+    margin: 10px 0 30px 0;
+}
+
+
+/* 词性英文 */
+.dsense_h {
     font-size: 15px;
     color: #34675C;
-    padding: 5px  0 10px;
-  }
-  
-  /* 词义英文 */
-  .ddef_h{
+    padding: 5px 0 10px;
+}
+
+/* 词义英文 */
+.ddef_h {
     font-size: 16px;
     font-weight: bold;
     background-color: #f7f7f7;
     padding: 10px;
-  }
-  
-  /* 词义-中文释义 */
-  .def-body.ddef_b .dtrans {
-      text-decoration: underline wavy 2px;
-      text-decoration-color: rgba(242, 104, 0, .6);
-      font-size: 16px;
-      font-weight: bolder;
-      color: #000000;
-  }
-  
-  /* 例句模块 */
-  .def-body.ddef_b{
+}
+
+/* 词义-中文释义 */
+.def-body.ddef_b .dtrans {
+    text-decoration: underline wavy 2px;
+    text-decoration-color: rgba(242, 104, 0, .6);
+    font-size: 16px;
+    font-weight: bolder;
+    color: #000000;
+}
+
+/* 例句模块 */
+.def-body.ddef_b {
     padding: 10px 0;
-  }
-  
-  /* 例句英文字体 */
-  .eg.deg {
+}
+
+/* 例句英文字体 */
+.eg.deg {
     color: #7d7d7d;
     font-size: 15px;
-  }
-  
-  /* 例句中文字体 */
-  .examp.dexamp .trans.dtrans.dtrans-se.hdb.break-cj {
-      color: #c2c2c2;
-      font-size: 12px;
-      background-color: transparent;
-      text-decoration: none;
-  }
-  
-  
-  /* 补充内容-模块 */
-  .pr.phrase-block.dphrase-block{
+}
+
+/* 例句中文字体 */
+.examp.dexamp .trans.dtrans.dtrans-se.hdb.break-cj {
+    color: #c2c2c2;
+    font-size: 12px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+/* 补充内容-模块 */
+.pr.phrase-block.dphrase-block {
     padding: 10px 10px;
     margin: 10px 0;
     border: 1px dashed #A3CCAB;
-  }
-  
-  /* 补充内容-英文短语 */
-  .phrase-head.dphrase_h{
-  font-size: 18px;
-  color: rgba(242, 104, 0);
-  padding: 10px 0;
-  }
-  
-  .xref.see_also.hax.dxref-w{
-  padding: 10px 0;
-  }
-  
-  /* 同义词等其他模块 */
-  .xref.synonyms.hax.dxref-w.lmt-25, .xref.synonym.hax.dxref-w.lmt-25, .xref.idioms.hax.dxref-w.lmt-25.lmb-25, .xref.idiom.hax.dxref-w.lmt-25.lmb-25, .xref.phrasal_verb.hax.dxref-w.lmt-25.lmb-25, .xref.phrasal_verbs.hax.dxref-w.lmt-25.lmb-25, .xref.phrasal_verbs.hax.dxref-w.lmt-25.lmb-25, .xref.related_words.hax.dxref-w.lmt-25, .xref.related_word.hax.dxref-w.lmt-25.lmb-25, .xref.grammar.hax.dxref-w.lmt-25.lmb-25, .xref.grammars.hax.dxref-w.lmt-25.lmb-25{
-  padding: 20px 10px ;
-  margin: 5px 0;
-  border: 2px dashed;
-  border-color:  rgba(242, 104, 0, .5);
-  background-color: rgba(242, 104, 0, .05) !important;
-  }
-  
-  /* 同义词等-大标题 */
-  strong.xref-title.dxref-t{
-  font-size: 20px;
-  color:  rgba(242, 104, 0);
-  }
-  
-  .item.lc.lc1.lc-xs6-12.lpb-10.lpr-10{
-  padding: 3px 0;
-  }
-  
-  /* 同义词-用词 */
-  span.x-lab.dx-lab{
-  padding: 0 6px 0;
-  }
+}
 
-   /* 同义词-用词地区 */
-  span.region{
-  color: #75b381;
-  font-size: 12px;
-  border: solid 1px #A3CCAB;
-  border-radius: 5px;
-  padding: 1px 1.5px 1px;
-  }
-  
-  /* 同义词-用词场合 */
-  .usage{
-  color: #F26800;
-  font-size: 12px;
-  border: solid 1px #F26800;
-  border-radius: 10px;
-  padding: 1px 1.5px 1px;
-  }
-  
-  /* 同义词-单词 */
-  span.x-h.dx-h{
-  font-size: 15px;
-  font-weight: bold;
-  }
-  
-  /* 同义词-单词补充 */
-  span.x-num.dx-num{
-  font-size: 10px;
-  }
+/* 补充内容-英文短语 */
+.phrase-head.dphrase_h {
+    font-size: 18px;
+    color: rgba(242, 104, 0);
+    padding: 10px 0;
+}
+
+.xref.see_also.hax.dxref-w {
+    padding: 10px 0;
+}
+
+/* 同义词等其他模块 */
+.xref.synonyms.hax.dxref-w.lmt-25,
+.xref.synonym.hax.dxref-w.lmt-25,
+.xref.synonyms.hax.dxref-w,
+.xref.idioms.hax.dxref-w.lmt-25.lmb-25,
+.xref.idiom.hax.dxref-w.lmt-25.lmb-25,
+.xref.phrasal_verb.hax.dxref-w.lmt-25.lmb-25,
+.xref.phrasal_verbs.hax.dxref-w.lmt-25.lmb-25,
+.xref.phrasal_verbs.hax.dxref-w.lmt-25.lmb-25,
+.xref.related_words.hax.dxref-w.lmt-25,
+.xref.related_word.hax.dxref-w.lmt-25.lmb-25,
+.xref.grammar.hax.dxref-w.lmt-25.lmb-25,
+.xref.grammars.hax.dxref-w.lmt-25.lmb-25,
+.xref.opposites.hax.dxref-w,
+.xref.compare.hax.dxref-w {
+    padding: 20px 10px;
+    margin: 5px 0;
+    border: 2px dashed;
+    border-color: rgba(242, 104, 0, .5);
+    background-color: rgba(242, 104, 0, .05) !important;
+}
+
+/* 同义词等-大标题 */
+strong.xref-title.dxref-t {
+    font-size: 20px;
+    color: rgba(242, 104, 0);
+}
+
+.item.lc.lc1.lc-xs6-12.lpb-10.lpr-10 {
+    padding: 3px 0;
+}
+
+/* 同义词-用词 */
+span.x-lab.dx-lab {
+    padding: 0 6px 0;
+}
+
+/* 同义词-用词地区 */
+span.region {
+    color: #75b381;
+    font-size: 12px;
+    border: solid 1px #A3CCAB;
+    border-radius: 5px;
+    padding: 1px 1.5px 1px;
+}
+
+/* 同义词-用词场合 */
+.usage {
+    color: #F26800;
+    font-size: 12px;
+    border: solid 1px #F26800;
+    border-radius: 10px;
+    padding: 1px 1.5px 1px;
+}
+
+/* 同义词-单词 */
+span.x-h.dx-h {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* 同义词-单词补充 */
+span.x-num.dx-num {
+    font-size: 10px;
+}
