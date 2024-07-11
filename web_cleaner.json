@@ -1,0 +1,79 @@
+{
+    "https://www.npr.org":{
+        "elements": ["header", "footer","aside"],
+        "classes": [
+            "share-tools share-tools--secondary",
+            "callout-end-of-story-mount-piano-wrap",
+            "recommended-stories",
+            "bucketwrap internallink insettwocolumn inset2col",
+            "audio-module"
+        ],
+        "attras": {
+            "id": ["main-sidebar","npr-player"],
+            "aria-label": ["Tweet","advertisement"]
+        }
+    },
+    "https://www.nationalgeographic.com": {
+        "classes": [
+            "AlertBanner alert_top",
+            "GlobalNav",
+            "InlineImagePromo__Content",
+            "FITT_Article_end",
+            "FrameBackgroundFull FrameBackgroundFull--dark",
+            "InlineEmail__Container",
+            "theme-e FITT_Article_main__sidebar oBTii mrzah pNwJE iWsMV vkle",
+            "GlobalFooter",
+            "GlobalFooter__CopyrightWrapper",
+            "natgeo-ad",
+            "CHWlW ZgZTu FlDNH hQfuy feniZ wBpop uAyYK yJYJo OGgqj tQHio PCVZs  Kiog iKqXF eeiyR",
+            "rEPuv seFhp WtEci"
+        ],
+        "attras": {
+            "data-testid": [
+                "prism-editors-note",
+                "prism-share",
+                "prism-newsletter-form"
+            ]
+        }
+    },
+    "https://www.bbc.com":{
+        "elements":["header","aside","footer","nav"],
+        "attras":{
+            "data-component":["links-block"]
+        }
+    },
+    "https://www.scientificamerican.com":{
+        "elements": ["header", "footer","aside"]
+    },
+    "https://www.nytimes.com":{
+        "elements": ["footer","aside"],
+        "attras": {
+            "data-testid": [
+                "share-tools"
+            ],
+            "id":["bottom-wrapper"]
+        },
+        "classes":["bottom-of-article"]
+    },
+    "https://www.vox.com":{
+        "elements":["aside", "footer", "nav","form"],
+        "attras": {
+            "aria-label":["Top Navigation"],
+            "data-concert-ads-name":[
+                "desktop_article_body",
+                "desktop_feature_footer",
+                "desktop_feature_body",
+                "desktop_feature_body_dynamic"
+            ]
+        },
+        "classes":[
+            "_1j2ggcb0", 
+            "x2c1mg2 x2c1mg5 x2c1mg7", 
+            "duet--layout--rail x2c1mg0 x2c1mg1",
+            "duet--layout--article-recirc _1ot72dd0 _1agbrix1",
+            "duet--ad-container--default",
+            "duet--layout--header-pattern _1iaikll1",
+            "duet--cta--newsletter mr4kua8"
+        ]
+    }
+}
